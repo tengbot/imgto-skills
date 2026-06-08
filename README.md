@@ -2,38 +2,17 @@
 
 Ad creation skills for AI agents.
 
-Built for [AIADS.IM](https://aiads.im), an AI Ads Generator for UGC video ads, product videos, hooks, scripts, translations, and ad creative variations.
+Built for [AIADS.IM](https://aiads.im), an AI Ads Generator for UGC video ads, product videos, hooks, scripts, translations, and creative variations.
 
-## What this is
+AIADS Skills is a public kit of Skill files, prompts, ad templates, page templates, and launch checklists for building AI ad creative workflows.
 
-AIADS Skills is a public kit of prompts, Codex-style Skills, ad templates, and SEO page templates for building AI ad creative tools.
-
-It is designed for builders who want AI agents to help create:
-
-- UGC video ad hooks
-- product video ad scripts
-- URL to video ad briefs
-- product image to ad video storyboards
-- TikTok, Reels, Shorts ad angles
-- localized ad scripts and captions
-- creative variation sets
-- AI ad landing pages
-
-## Built for AIADS.IM
-
-AIADS.IM is an AI ad creative production platform.
-
-Main site:
-
-- [https://aiads.im](https://aiads.im)
-
-The product direction is simple:
+## Core idea
 
 ```text
 Input product -> Generate ad creatives
 ```
 
-The workflow:
+Expanded workflow:
 
 ```text
 Product image / URL / description / script / reference ad
@@ -48,22 +27,23 @@ Product image / URL / description / script / reference ad
 -> download
 ```
 
-## What is included
+## What this repo is for
 
-- AI ad creation Skills
-- Hook generation prompts
-- UGC ad script templates
-- Product video ad templates
-- Ad brief templates
-- Storyboard templates
-- Creative variation templates
-- SEO page templates for AI ad tools
-- Route, footer, sitemap, and canonical rules
-- Responsible AI ad page guidelines
+Use this repo when you want an AI agent or coding agent to help create:
 
-## What is not included
+- ad hooks for the first 3 seconds
+- UGC video ad scripts
+- product video ad scripts
+- product image to ad video briefs
+- URL to video ad briefs
+- localized captions and CTAs
+- creative variation batches
+- AI ad landing pages
+- sitemap, footer, canonical, and route plans for ad tool sites
 
-This repository does not include the private AIADS product codebase.
+## What this repo is not
+
+This repository is not the private AIADS product codebase.
 
 It does not include:
 
@@ -77,14 +57,24 @@ It does not include:
 - user data
 - deployment secrets
 
-The real product code should stay private.
+The production app should stay private.
+
+## Skills included
+
+```text
+.agents/skills/aiads-site-skill/SKILL.md
+.agents/skills/hook-skill/SKILL.md
+.agents/skills/ad-script-skill/SKILL.md
+.agents/skills/ugc-ad-skill/SKILL.md
+.agents/skills/product-video-ad-skill/SKILL.md
+.agents/skills/ad-translation-skill/SKILL.md
+.agents/skills/creative-variation-skill/SKILL.md
+```
 
 ## Quick start
 
-Use the ad creation Skills when building or reshaping an AI ad tool site.
-
 ```text
-Use the aiads-skills workflow.
+Use the aiads-site-skill.
 
 Brand brief:
 brandName: AI Ads
@@ -94,7 +84,7 @@ homepageTitle: AI Ads Generator for UGC & Product Videos | AI Ads
 homepageH1: AI Ads Generator
 homepageDescription: Create UGC video ads, product videos, hooks, thumbnails, translations, and ad variations for TikTok, YouTube, Instagram, Facebook, and X.
 
-Create or update:
+P0 pages:
 /
 /ad-video-generator
 /product-image-to-video
@@ -109,38 +99,35 @@ Create or update:
 Do not touch payment, database, API keys, or private product logic.
 ```
 
-## Repository structure
+## Repository map
 
 ```text
-.agents/skills/aiads-site-skill/SKILL.md
-.agents/skills/hook-skill/SKILL.md
-.agents/skills/ad-script-skill/SKILL.md
-prompts/
-templates/
-examples/
-docs/
+.agents/skills/       Skill files for AI agents
+prompts/              Copy-paste prompts for ad creative workflows
+templates/            Reusable page and creative templates
+examples/             Example product briefs
+docs/                 Practical docs and launch checklists
 ```
 
-## Why this exists
+## Page strategy
 
-A lot of AI ad tools fail because they only ship a generic video generator. Real ad workflows need focused creative steps:
+AI ad tools should not rely on one homepage. Useful traffic and useful product flows usually come from a small set of focused pages:
 
-- ad angle
-- hook
-- script
-- storyboard
-- product video
-- UGC style
-- captions
-- CTA
-- localized variants
-- batch creative variations
+- AI Ad Video Generator
+- Product Image to Video
+- URL to Video
+- UGC Video Ads
+- Product Video Generator
+- AI Hook Generator
+- AI Ad Script Generator
+- Ad Translation
+- Pricing
 
-This kit gives AI agents a repeatable way to create useful ad creative assets without turning the product into a pile of thin SEO pages.
+Every indexable page should have a clear H1, useful examples, related links, FAQ, and a real product CTA.
 
 ## Responsible marketing note
 
-Use these templates to create useful ad drafts and creative variations.
+Use these Skills to create draft ad creatives and testing variations.
 
 Do not promise:
 
@@ -157,8 +144,8 @@ Use safer language:
 - helps localize ad assets
 - helps produce ad variations
 
-## Links
+## Useful links
 
-- AIADS.IM: [https://aiads.im](https://aiads.im)
-- Main keyword: AI Ads Generator
+- Main site: [https://aiads.im](https://aiads.im)
+- Core keyword: AI Ads Generator
 - Core workflow: Input product -> Generate ad creatives
