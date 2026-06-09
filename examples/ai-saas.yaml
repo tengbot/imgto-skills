@@ -1,0 +1,24 @@
+brand: QueryPilot
+product: AI Search Analytics Dashboard
+category: AI SaaS
+audience: indie hackers, SaaS founders, and growth marketers
+platforms:
+  - LinkedIn
+  - X
+  - YouTube Shorts
+  - TikTok
+pain_point: founders do not know which keywords and pages are starting to get search impressions
+main_benefit: shows early SEO signals, query clusters, and page opportunities in one dashboard
+proof_point: connects Search Console data with simple keyword clustering and page tracking
+offer: early access waitlist
+brand_voice: sharp, practical, founder-friendly
+ad_goal: create short founder-style and product demo ad concepts
+creative_constraints:
+  - do not promise guaranteed rankings
+  - do not claim instant traffic growth
+  - avoid fake customer logos or fake testimonials
+outputs_requested:
+  hooks: 12
+  scripts: 3
+  storyboard_variations: 3
+  cta_variants: 10
